@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
          value = Double.parseDouble(editTextAmt.getText().toString());
          fvalue = value*74.17;
         String text = Double.toString(fvalue);
-        Toast.makeText(this,text,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,text+" INR",Toast.LENGTH_LONG).show();
 
 
 

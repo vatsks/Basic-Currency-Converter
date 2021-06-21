@@ -18,7 +18,7 @@
 
     <EditText
         android:id="@+id/editTextAmt"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:ems="10"
@@ -37,6 +37,7 @@
         android:layout_marginEnd="167dp"
         android:layout_marginBottom="223dp"
         android:backgroundTint="#FF9800"
+        android:onClick="click"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
